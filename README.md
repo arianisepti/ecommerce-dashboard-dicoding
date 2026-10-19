@@ -43,7 +43,6 @@ Dashboard dilengkapi **filter interaktif** di sidebar:
 
 2. **(Opsional) Buat virtual environment:**
 
-    bash
     python -m venv venv
 
     # Windows
@@ -54,11 +53,10 @@ Dashboard dilengkapi **filter interaktif** di sidebar:
 
 3. **Install dependensi:**
 
-    bash
     pip install -r requirements.txt
     Jalankan dashboard:
 
-    bash
+    
     streamlit run dashboard/dashboard.py
     Buka browser di http://localhost:8501.
 
@@ -118,7 +116,7 @@ Segmentasi pelanggan menggunakan RFM Analysis dengan pendekatan:
 
 
 ## 👤 Author
-**Ariani Septi**  
+**Ariani Dwi Septi**  
 Dicoding Indonesia — Belajar Analisis Data dengan Python
 
 
