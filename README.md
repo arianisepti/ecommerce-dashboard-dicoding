@@ -78,63 +78,49 @@ submission/
 ```
 
 
-🔍 Metodologi Analisis
-Analisis dilakukan di notebook.ipynb melalui tahapan berikut:
+### 🔍 Metodologi Analisis
+Analisis dilakukan di `notebook.ipynb` melalui tahapan berikut:
 
-Gathering Data — Memuat 9 dataset CSV ke DataFrame.
+1. **Gathering Data** — Memuat 9 dataset CSV ke DataFrame.
+2. **Assessing Data** — Mengidentifikasi *missing value*, *duplicate*, kesalahan tipe data, nilai tidak valid, dan *outlier*.
+3. **Cleaning Data** — Menangani permasalahan data, lalu menggabungkan dataset menjadi `main_data.csv`.
+4. **Exploratory Data Analysis (EDA)** — Menjawab 3 pertanyaan bisnis (SMART).
+5. **Visualization & Explanatory Analysis** — Visualisasi untuk setiap pertanyaan bisnis.
+6. **Conclusion & Recommendation** — Kesimpulan dan 3 *action item*.
 
-Assessing Data — Mengidentifikasi missing value, duplicate, kesalahan tipe data, nilai tidak valid, dan outlier.
-
-Cleaning Data — Menangani permasalahan data, lalu menggabungkan dataset menjadi main_data.csv.
-
-Exploratory Data Analysis (EDA) — Menjawab 3 pertanyaan bisnis (SMART).
-
-Visualization & Explanatory Analysis — Visualisasi untuk setiap pertanyaan bisnis.
-
-Conclusion & Recommendation — Kesimpulan dan 3 action item.
-
-Analisis Lanjutan: RFM Analysis
+**Analisis Lanjutan: RFM Analysis**
 Segmentasi pelanggan menggunakan RFM Analysis dengan pendekatan:
-
-Skoring kuantil (1–5) untuk Recency, Frequency, dan Monetary.
-
-Manual grouping berbasis aturan bisnis untuk menentukan segmen: Champions, Loyal Customers, New Customers, Potential Loyalist, At Risk, dan Hibernating.
-
-Tanpa algoritma machine learning, sesuai panduan proyek.
+* Skoring kuantil (1–5) untuk *Recency*, *Frequency*, dan *Monetary*.
+* *Manual grouping* berbasis aturan bisnis untuk menentukan segmen: **Champions**, **Loyal Customers**, **New Customers**, **Potential Loyalist**, **At Risk**, dan **Hibernating**.
+* Tanpa algoritma *machine learning*, sesuai panduan proyek.
 
 
-📝 Pertanyaan Bisnis
-Kategori produk apa yang menghasilkan revenue tertinggi dan terendah selama Januari 2017 – Agustus 2018, dan bagaimana kontribusinya terhadap total revenue?
+---
 
-Berapa rata-rata waktu pengiriman per negara bagian, dan state mana yang memiliki rata-rata waktu pengiriman terlama?
-
-Bagaimana segmentasi pelanggan berdasarkan RFM, dan segmen mana yang perlu diprioritaskan untuk retensi?
-
-
-💡 Kesimpulan Singkat
-Kategori Produk: Revenue sangat terkonsentrasi — hanya 16 dari 71 kategori menyumbang ~79% revenue. Tiga teratas: health_beauty, watches_gifts, bed_bath_table.
-
-Waktu Pengiriman: Rata-rata nasional 12,46 hari. State dengan pengiriman terlama: RR, AP, AM (>26 hari). RJ menjadi prioritas perbaikan (volume besar + pengiriman lambat).
-
-Segmentasi RFM: Potential Loyalist (31,20% pelanggan) dan At Risk (23,86% pelanggan) adalah segmen terbesar. Champions (6,96% pelanggan) menyumbang 14,65% revenue dengan rata-rata monetary tertinggi.
+## 📝 Pertanyaan Bisnis
+1. Kategori produk apa yang menghasilkan *revenue* tertinggi dan terendah selama Januari 2017 – Agustus 2018, dan bagaimana kontribusinya terhadap total *revenue*?
+2. Berapa rata-rata waktu pengiriman per negara bagian, dan *state* mana yang memiliki rata-rata waktu pengiriman terlama?
+3. Bagaimana segmentasi pelanggan berdasarkan RFM, dan segmen mana yang perlu diprioritaskan untuk retensi?
 
 
-🛠️ Teknologi yang Digunakan
-Python 3 — Bahasa pemrograman utama
-
-pandas — Pengolahan dan analisis data
-
-matplotlib & seaborn — Visualisasi data
-
-Streamlit — Framework dashboard interaktif
-
-Jupyter Notebook — Analisis eksploratif
+## 💡 Kesimpulan Singkat
+* **Kategori Produk:** *Revenue* sangat terkonsentrasi — hanya 16 dari 71 kategori menyumbang ~79% *revenue*. Tiga teratas: `health_beauty`, `watches_gifts`, `bed_bath_table`.
+* **Waktu Pengiriman:** Rata-rata nasional 12,46 hari. *State* dengan pengiriman terlama: **RR, AP, AM** (>26 hari). **RJ** menjadi prioritas perbaikan (volume besar + pengiriman lambat).
+* **Segmentasi RFM:** **Potential Loyalist** (31,20% pelanggan) dan **At Risk** (23,86% pelanggan) adalah segmen terbesar. **Champions** (6,96% pelanggan) menyumbang 14,65% *revenue* dengan rata-rata *monetary* tertinggi.
 
 
-👤 Author
-Ariani Septi
+## 🛠️ Teknologi yang Digunakan
+* **Python 3** — Bahasa pemrograman utama
+* **pandas** — Pengolahan dan analisis data
+* **matplotlib & seaborn** — Visualisasi data
+* **Streamlit** — Framework *dashboard* interaktif
+* **Jupyter Notebook** — Analisis eksploratif
 
+
+## 👤 Author
+**Ariani Septi**  
 Dicoding Indonesia — Belajar Analisis Data dengan Python
 
-📄 Lisensi
-Proyek ini dibuat untuk keperluan submission Dicoding Indonesia. Dataset bersumber dari E-Commerce Public Dataset oleh Olist.
+
+## 📄 Lisensi
+Proyek ini dibuat untuk keperluan *submission* Dicoding Indonesia. Dataset bersumber dari *E-Commerce Public Dataset* oleh Olist.
