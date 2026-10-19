@@ -1,6 +1,6 @@
 # 🛒 E-Commerce Public Dataset Dashboard
 
-Dashboard interaktif hasil analisis **E-Commerce Public Dataset** periode **Januari 2017 – Agustus 2018**. Proyek ini dibuat untuk memenuhi submission kelas **Belajar Analisis Data dengan Python** di Dicoding Indonesia.
+Dashboard interaktif hasil analisis **E-Commerce Public Dataset** periode **Januari 2017 – Agustus 2018**. Proyek ini dibuat untuk memenuhi submission kelas **Belajar Fundamental Analisis Data** di Dicoding Indonesia.
 
 ---
 
