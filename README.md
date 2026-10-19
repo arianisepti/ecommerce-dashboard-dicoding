@@ -64,19 +64,18 @@ Dashboard dilengkapi **filter interaktif** di sidebar:
 
 
 📁 Struktur Proyek
+
+```text
 submission/
-│
 ├── dashboard/
-│   ├── main_data.csv       <-- Dataset bersih
-│   └── dashboard.py        <-- Aplikasi Streamlit
-│
-├── data/                   <-- (Buat folder ini)
-│   └── (Masukkan 9 file CSV mentah di sini)
-│
-├── notebook.ipynb          <-- Notebook analisis
-├── README.md               <-- Dokumentasi
-├── requirements.txt        <-- Dependensi Python
-└── url.txt                 <-- Tautan dashboard live
+│   ├── main_data.csv       # Dataset bersih hasil cleaning
+│   └── dashboard.py        # Aplikasi Streamlit
+├── data/                   # Dataset mentah (9 CSV)
+├── notebook.ipynb          # Notebook analisis lengkap
+├── README.md               # Dokumentasi proyek (file ini)
+├── requirements.txt        # Dependensi Python
+└── url.txt                 # Tautan dashboard live
+```
 
 
 🔍 Metodologi Analisis
